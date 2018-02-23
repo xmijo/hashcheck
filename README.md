@@ -1,0 +1,2 @@
+# hashcheck
+Simple hash checker
