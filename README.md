@@ -10,7 +10,6 @@ Use it to:
   - Quickly print the hashes of a single file or all files in a directory.
   - Quickly check if a hash matches a file or any file in a directory.
 
-Handles directories recursively.
 
 Usage tip:
 Rename and remove the .py extension, put it in your $PATH.
