@@ -6,6 +6,6 @@ Simple file hash tool for the command line. Requires Python 3.
 
 Utilizes the hashlib module which supports the FIPS secure hash algorithms SHA1, SHA224, SHA256, SHA384, and SHA512 (defined in FIPS 180-2) as well as RSA’s MD5 algorithm.
 
-Make it executable, rename and remove the .py extension, put it in your $PATH.
+Make it executable, remove the .py extension, put it in your $PATH.
 
 Use the -r flag to traverse directories recursively.
