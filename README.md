@@ -8,4 +8,4 @@ Utilizes the hashlib module which supports the FIPS secure hash algorithms SHA1,
 
 Make it executable, remove the .py extension, put it in your $PATH.
 
-Use the -r flag to traverse directories recursively.
+Use the -r flag to enable recursive directory traversal.
