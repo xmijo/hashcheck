@@ -50,7 +50,7 @@ def get_args():
         nargs='+',
         choices=hash_algos,
         default=default_hash_algos,
-        help='specify hashing algorithms. (default: md5, sha1)'
+        help=f'specify hashing algorithms. (default: {", ".join(default_hash_algos)})'
     )
     ap.add_argument(
         '-c',
