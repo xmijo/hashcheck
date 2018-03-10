@@ -22,7 +22,7 @@ hash_algos = {
 
 default_hash_algos = [
     'md5',
-    'sha1',
+    'sha256',
 ]
 
 
@@ -47,7 +47,7 @@ def get_args():
     ap.add_argument(
         '-a',
         dest='hash_algo',
-        # nargs='+',
+        nargs='+',
         choices=hash_algos,
         default=default_hash_algos,
         help='specify hashing algorithms. (default: md5, sha1)'
